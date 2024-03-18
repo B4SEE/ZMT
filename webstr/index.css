@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #010101;
+    color: white;
+    font-family: Akira_f, Bold;
+    line-height: 1.55;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('bg.gif'); 
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+.mainmenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    max-height: 150px;
+}
+
+.avtr,
+.crok {
+    margin-right: 30px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+
+.crok ul {
+    margin-right: 30px;
+    vertical-align: middle;
+    list-style: none;
+    display: flex;
+}
+
+.crok li {
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.crok a {
+    vertical-align: middle;
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.crok a:hover {
+    color: #8f0c03;
+}
+
+.avtr h1 {
+    font-family: arial;
+    font-size: 30px;
+    color: white;
+    vertical-align: middle;
+}
+
+.container {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid white;
+}
+
+
+.quote {
+    transform: skew(-20deg);
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+iframe {
+    margin-top: 20px; 
+    max-width: 100%; 
+}
+
+.quotetwo {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid white;
+    text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.by {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.5;
+    font-size: 12px;
+    white-space: nowrap;
+}
